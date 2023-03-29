@@ -1,6 +1,6 @@
 function primeNumbers(n) {
     var arr = new Array();
-    for (let i = 2; i <= n; i++) { 
+    for (let i = 2; arr.length < n; i++) { 
         var prime = true;
         for (let j = 2; j < i; j++) { 
             if (i % j == 0) prime = false;
